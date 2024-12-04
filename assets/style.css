@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(87, 122, 157);
+    color: hsl(0, 80%, 2%)
+
+}
+
+nav  {
+  background-color: rgb(221, 130, 180);
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+footer {
+    font-size: 100%;
+    font-style: italic;
+    text-align: center;
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: fixed;
+    bottom: 0;
+    background-color: white; 
+    padding: 5px;
+}
+
+h1,h2,h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#contact {
+    font-size: 90%;
+}
+
+#wrapper {
+    margin: auto;
+    width: 85%;
+    background-color: pink;
+    min-width: 550px;
+    max-width: 1015px;
+    box-shadow: -5px 5px 5px #666666;
+}
+
+main {
+    padding-top: 1px;
+    padding-right: 15px; padding-bottom: 15px; padding-left: 20px;
+}
+
