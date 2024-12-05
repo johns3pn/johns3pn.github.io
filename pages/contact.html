@@ -57,7 +57,19 @@
             <button type="submit">Submit</button>
         </form>
     </section>
-   
+    
+    <script>
+       
+        const form = document.getElementById('contact-form');
+        form.addEventListener('submit', (event) => {
+            event.preventDefault(); // Prevent form from refreshing the page
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            console.log(`Name: ${name}, Email: ${email}`);
+            alert(`Thank you, ${name}! Your message has been received.`);
+            form.reset(); // Clear the form after submission
+        });
+    </script>
     
 </main>
 
