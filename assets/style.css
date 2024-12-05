@@ -31,10 +31,6 @@ h1,h2,h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-#contact {
-    font-size: 100%;
-}
-
 #wrapper {
     margin: auto;
     width: 85%;
@@ -49,3 +45,59 @@ main {
     padding-right: 15px; padding-bottom: 15px; padding-left: 20px;
 }
 
+
+#contact {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.contact-info p {
+    margin: 0.5rem 0;
+}
+
+.contact-info a {
+    color: #0b0b0b;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+form {
+    margin-top: 1.5rem;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0 0.2rem;
+    font-weight: bold;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
