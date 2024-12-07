@@ -1,11 +1,11 @@
 body {
     background-color: rgb(87, 122, 157);
-    color: hsl(0, 80%, 2%)
+    color: hsl(0, 0%, 5%)
 
 }
 
 nav  {
-  background-color: rgb(221, 130, 180);
+  background-color: rgb(142, 38, 95);
   font-weight: bold;
   text-align: center;
   padding: 10px;
@@ -21,6 +21,7 @@ h1,h2,h3{
 
 nav a {
     text-decoration: none;
+    color: #fff;
 }
 
 footer {
@@ -35,17 +36,18 @@ footer {
     padding: 5px;
 }
 
-h1,h2,h3 {
+h1,h2,h3,p {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
 }
 
 #wrapper {
     margin: auto;
     width: 85%;
-    background-color: pink;
+    background-color: rgb(157, 136, 215);
     min-width: 550px;
     max-width: 1015px;
-    box-shadow: -5px 5px 5px #666666;
+    box-shadow: -5px 5px 5px #efeeee;
 }
 
 main {
@@ -110,11 +112,6 @@ button:hover {
     background-color: #0056b3;
 }
 
-
-
-
-
-
 table {
     width: 90%;
     border-collapse: collapse;
@@ -128,12 +125,13 @@ th, td {
 }
 
 th {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #094e5f;
+    color: rgb(241, 236, 236);
 }
 
 tr:nth-child(even) {
-    background-color: #f2f2f2;
+    background-color: #f2f1f1;
+    color: #070606;
 }
 
 tr:hover {
@@ -141,7 +139,7 @@ tr:hover {
 }
 
 td a {
-    color: #007BFF;
+    color: #37373c;
     text-decoration: none;
 }
 
