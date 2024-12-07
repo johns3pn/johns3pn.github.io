@@ -102,3 +102,42 @@ button:hover {
     background-color: #0056b3;
 }
 
+
+
+
+
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+td a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+td a:hover {
+    text-decoration: underline;
+}
+
