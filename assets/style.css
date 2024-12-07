@@ -39,6 +39,7 @@ footer {
 h1,h2,h3,p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #fff;
+    text-align: center;
 }
 
 #wrapper {
@@ -146,3 +147,9 @@ td a {
 td a:hover {
     text-decoration: underline;
 }
+
+ol {
+    text-align: center;
+    color: #fff;
+}
+
