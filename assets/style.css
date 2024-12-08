@@ -148,8 +148,11 @@ td a:hover {
     text-decoration: underline;
 }
 
-ol {
-    text-align: center;
+ul{
+    text-align: left;
     color: #fff;
 }
+
+
+
 
